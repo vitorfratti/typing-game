@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/image/star.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    </style>
+    <title>Typing Game</title>
+</head>
+<body>
+    <div class="container">
+
+        <div id="startgame-container" class="startgame-container show">
+            <p class="title-startgame-container">Ready?</p>
+            <div class="startgame-buttons">
+                <button id="startgame-btn" class="startgame-btn">Start Game</button>
+            </div>
+        </div>
+
+        <div id="game-container" class="game-container">
+            <div id="header-game-container" class="header-game-container">
+                <img id="star-icon" src="assets/image/star.png" alt="star">
+                <p id="score-value" class="score-value">0</p>
+            </div>
+            <div class="main-game-container">
+                <p id="word" class="word"></p>
+                 <div class="input-container">
+                    <input autocomplete="off" id="word-input" type="text">
+                </div>
+            </div>
+            <div class="footer-game-container">
+                <div class="time-bar">
+                    <div id="inside-time-bar" class="inside-time-bar"></div>
+                </div>
+                <p id="time-value" class="time-value">8</p>
+            </div>
+        </div>
+
+        <div id="gameover-container" class="gameover-container">
+            <p id="title-gameover-container" class="title-gameover-container"></p>
+            <p id="final-score-value" class="final-score-value"></p>
+            <div class="playagain-container">
+                <button id="playagain-btn" class="playagain-btn">Play Again</button>
+            </div>
+        </div>
+
+        <div id="settings-container" class="settings-container">
+            <p class="title-settings">Select the difficulty</p>
+            <div class="easy-container">
+                <button id="easy-btn" class="easy-btn selected">EASY</button>
+                <p class="easy-guide">Each right word adds +3 seconds</p>
+            </div>
+            <div class="medium-container">
+                <button id="medium-btn" class="medium-btn">MEDIUM</button>
+                <p class="medium-guide">Each right word adds +2 seconds</p>
+            </div>
+            <div class="hard-container">
+                <button id="hard-btn" class="hard-btn">HARD</button>
+                <p class="hard-guide">Each right word adds +1 second</p>
+            </div>
+        </div>
+
+        <div class="guide">
+            <p class="guide-text">You can change the difficulty using the button below.</p>
+        </div>
+
+        <div class="settings">
+            <button id="settings-btn" class="settings-btn"><img id="settings-icon" src="assets/image/settings.png" alt="setting"></button>
+        </div>
+
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
