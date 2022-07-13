@@ -10,4 +10,8 @@ O tempo varia de acordo com a dificuldade.</p>
 
 ![Typing Game - GIF](https://user-images.githubusercontent.com/91079601/170845295-e3c6732c-fd61-40a4-82ab-69d111973378.gif)
 
+<h3><a href="https://typing-game-vitorfratti.netlify.app/">Clique aqui para visitar o projeto</a></h3>
+
+<br>
+
 [![GitHub issues](https://img.shields.io/badge/Language-Javascript-yellow)](https://github.com/vitorfratti/Aula-05/issues)
